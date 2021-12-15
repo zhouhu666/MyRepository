@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express susu 001' });
+  res.render('index', { title: 'Express dev branch' });
 });
 
 module.exports = router;
