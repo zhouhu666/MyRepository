@@ -10,4 +10,9 @@ router.get('/feature', function(req, res, next) {
   res.render('index', { title: 'Express this is feature susu02' });
 });
 
+router.get('/feature01', function(req, res, next) {
+  res.render('index', { title: 'Express this is feature susu01' });
+});
+
+
 module.exports = router;
