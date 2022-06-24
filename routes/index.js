@@ -9,5 +9,8 @@ router.get('/', function(req, res, next) {
 router.get('/feature', function(req, res, next) {
   res.render('index', { title: 'Express this is feature susu02' });
 });
+router.get('/feature', function(req, res, next) {
+  res.render('index', { title: 'Express this is feature susu02' });
+});
 
 module.exports = router;
